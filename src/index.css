@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  overflow: hidden;
+}
+.video-width {
+  width: 750px;
+}
+.join-us-width {
+  max-width: 780px;
+}
+.join-us-width-med {
+  max-width: 700px
+}
+.join-us-width-sm {
+  max-width: 600;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.videoform-bg {
+  background-image: url('../public/assets/video-form-9bg.jpg');
+}
+.videoform_header-bg {
+  background-image: url('../public/assets/form-header-bg.jpg');
+}
+.form-bg {
+  background-image: url('../public/assets/form-bg.jpg');
+  height: 285px;
+}
+.join-us-bg {
+  background-image: url('../public/assets/join-us-bg.jpg');
+  background-position: center;
+}
+.position-img {
+  top: -322px;
+  right: -300px;
+}
+.testimonial-transition {
+  opacity: 0;
+  transition-duration: .5s;
+  transition-property: all;
+}
+.testimonial-transition:hover {
+  opacity: 100%;
+}
+.features-bg {
+  background-image: url('../public/assets/features-section-bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.feature-bg {
+  max-width: 360px;
+  background-color: rgb(50, 43, 124);
+}
+.live-box {
+  box-shadow: 0px 10px 36.3px 12.7px rgba(37, 26, 65, 0.1);
+  background-color: white;
+  border: solid 10px #ffffff;
+  position: relative;
+  top: -200px;
+}
+.step-bg-med {
+  height: 1160px;
+}
+.step-w {
+  max-width: 360px;
+}
+.get-started-bg {
+  background-image: url('../public/assets/pre-footer-bg.jpg');
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

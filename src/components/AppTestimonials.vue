@@ -4,10 +4,10 @@
     <div :class="testemonialBoxStyle">
       <div
       v-for="people in testemonials"
-      class="flex relative w-full"
+      class="flex relative w-full h-full"
       >
         <span class="absolute flex flex-col h-full p-4 italic text-center text-white bg-blue-500/60 testimonial-transition">"{{ people.message }}"</span>
-        <img :src="require(`../../public/assets/${people.img}.jpg`)" alt="" class="w-full">
+        <img :src="require(`../../public/assets/${people.img}.jpg`)" alt="" class="w-full h-full object-cover">
         <div class="absolute flex flex-col left-0 right-0 bottom-6">
           <span class="text-lg text-center text-white mb-0.5">{{ people.name }}</span>
           <span class="text-lg text-center text-white mb-0.5">{{ people.city }}, {{ people.region }}</span>

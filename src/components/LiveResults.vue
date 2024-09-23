@@ -216,9 +216,9 @@ export default {
     },
     btnStyle () {
       if (this.isSm) {
-        return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-2xl font-bold py-4 px-32 mx-auto relative -top-14'
+        return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-xl font-bold py-4 px-20 mx-auto relative -top-14'
       } else if (this.isMed) {
-        return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-2xl font-bold py-4 px-32 mx-auto relative -top-14'
+        return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-2xl font-bold py-4 px-24 mx-auto relative -top-14'
       } else {
         return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-3xl font-bold py-6 px-40 mx-auto relative -top-14' 
       }

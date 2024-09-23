@@ -10,7 +10,7 @@ export default {
   computed: {
     btnStyle () {
       if (this.isSm) {
-        return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-2xl text-purple-900 font-bold py-12 px-32 block mx-auto'
+        return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-xl text-purple-900 font-bold py-12 px-24 block mx-auto'
       } else if (this.isMed) {
         return 'bg-yellow-300 border-b-4 border-yellow-500 rounded-lg text-2xl text-purple-900 font-bold py-12 px-32 block mx-auto'
       } else {

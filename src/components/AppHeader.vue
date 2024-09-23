@@ -116,7 +116,7 @@ export default {
     },
     mediaHeaderBoxStyle () {
       if (this.isSm) {
-        return 'wrapper flex flex-col items-center justify-between mx-auto pb-4'
+        return 'wrapper flex flex-col items-center justify-between mx-auto p-4'
       } else {
         return 'wrapper flex justify-between mx-auto' 
       }
@@ -139,7 +139,7 @@ export default {
     },
     mediaMobileTextStyle () {
       if (this.isSm) {
-        return 'text-normal'
+        return 'text-sm'
       } else if (this.isMed) {
         return 'text-lg'
       } else {

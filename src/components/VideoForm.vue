@@ -4,7 +4,7 @@
       <h1 :class="titleStyle">Bitcoin Is Making People Rich</h1>
       <p :class="textStyle">And you Become The <span class="text-yellow-500">Next Millionare...</span></p>
       <div :class="videoFormBoxStyle">
-      <div class="mr-8 mb-6">
+      <div :class="videoStyle">
         <div class="absolute text-white mt-4 ml-6 text-lg">Sunday August 21, 2021</div>
         <video src="../../public/assets/videoplayback.mp4" controls autoplay loop muted playsinline class="border-8 video-width box-border"></video>
       </div>
@@ -51,6 +51,15 @@ export default {
         return 'flex px-8'
       } else {
         return 'flex px-8' 
+      }
+    },
+    videoStyle () {
+      if (this.isSm) {
+        return 'mb-6'
+      } else if (this.isMed) {
+        return 'mb-6'
+      } else {
+        return 'mr-8 mb-6' 
       }
     }
   },
